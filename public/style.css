@@ -1,0 +1,138 @@
+.primary_color{
+  color: #15bdc0
+}
+
+.secondary_color{
+  color: #fc638e
+}
+
+.terciary_color{
+  color: #c3ecae
+}
+
+.button-color{
+  background-color: #ff2e60; 
+  color: #fff; /
+}
+
+
+body {
+  background-color: #faf9f7;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+#contact {
+  background-color: #fc638e
+}
+
+
+/* navbar */
+.navbar {
+  border-radius: 50px; /* Adiciona bordas arredondadas à barra de navegação */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  margin: 10px; /* Adiciona margem ao redor da barra de navegação */
+  
+}
+
+.navbar-brand img {
+  border-radius: 15px; /* Adiciona bordas arredondadas ao logo */
+}
+
+.nav-item .nav-link {
+  color: #fff; /* Cor do texto */
+  padding: 10px 15px; /* Espaçamento ao redor dos links */
+  border-radius: 5px; /* Bordas arredondadas nos links */
+}
+
+.nav-item .nav-link:hover {
+  color:  #15bdc0; /* Cor do texto ao passar o mouse */
+}
+
+
+
+/*about*/
+#txt{
+  font-size: 25px;
+}
+/* styles.css */
+.bg-image {
+  background-image: url('/public/img/image 1.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a seção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  width: 100%; /* Largura total */
+  height: 100vh; /* Altura total da viewport */
+}
+
+.bg-image2 {
+  background-image: url('/public/img/Sorvete derretido.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a seção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  width: 50%; /* Largura total */
+  height: 30vh; /* Altura total da viewport */
+}
+
+
+
+.section-padding {
+  padding: 0; /* Remove o padding da seção */
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+
+  .about-text {
+    padding-top: 50px;
+  
+}
+
+
+/*produtos*/
+.product-img {
+  width: 100%;
+  height: auto;
+}
+.product-card {
+  margin-bottom: 30px;
+}
+
+/*footer*/ 
+.footer {
+  padding: 15px;
+  font-size: 12px;
+}
+.social-media li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Mantém a cor do texto padrão (herdada) */
+  font-size: 18px;
+  padding: 3px;
+}
+
+
+/*Contact*/
+contact {
+  background-color: #fc638e;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+
+#copy {
+  text-decoration: none;
+  color: #fff;
+}
+
+#copy:hover {
+  text-decoration: none;
+  color: #fc638e;
+}
+
