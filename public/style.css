@@ -11,7 +11,7 @@
 }
 
 .button-color{
-  background-color: #ff2e60; 
+  background-color: #15bdc0; 
   color: #fff; /
 }
 
@@ -48,14 +48,14 @@ body {
 }
 
 .nav-item .nav-link:hover {
-  color:  #15bdc0; /* Cor do texto ao passar o mouse */
+  color:  #000; /* Cor do texto ao passar o mouse */
 }
 
 
 
 /*about*/
 #txt{
-  font-size: 25px;
+  font-size: 20px;
 }
 /* styles.css */
 .bg-image {
@@ -116,6 +116,7 @@ body {
 }
 
 
+
 /*Contact*/
 contact {
   background-color: #fc638e;
@@ -123,6 +124,16 @@ contact {
 
 .small-text {
   font-size: 10px;
+}
+
+#socials {
+  text-decoration: none;
+  color: #fff;
+}
+
+#socials:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 
@@ -133,6 +144,6 @@ contact {
 
 #copy:hover {
   text-decoration: none;
-  color: #fc638e;
+  color: #000;
 }
 
