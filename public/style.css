@@ -1,20 +1,19 @@
-.primary_color{
-  color: #15bdc0
+.primary_color {
+  color: #15bdc0;
 }
 
-.secondary_color{
-  color: #fc638e
+.secondary_color {
+  color: #fc638e;
 }
 
-.terciary_color{
-  color: #c3ecae
+.terciary_color {
+  color: #c3ecae;
 }
 
-.button-color{
-  background-color: #15bdc0; 
-  color: #fff; /
+.button-color {
+  background-color: #15bdc0;
+  color: #fff;
 }
-
 
 body {
   background-color: #faf9f7;
@@ -25,16 +24,14 @@ body {
 }
 
 #contact {
-  background-color: #fc638e
+  background-color: #fc638e;
 }
-
 
 /* navbar */
 .navbar {
   border-radius: 50px; /* Adiciona bordas arredondadas à barra de navegação */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
   margin: 10px; /* Adiciona margem ao redor da barra de navegação */
-  
 }
 
 .navbar-brand img {
@@ -48,35 +45,68 @@ body {
 }
 
 .nav-item .nav-link:hover {
-  color:  #000; /* Cor do texto ao passar o mouse */
+  color: #000; /* Cor do texto ao passar o mouse */
 }
-
-
 
 /*about*/
-#txt{
+#txt {
   font-size: 20px;
 }
+#about {
+  background-color: #15bdc0;
+}
 /* styles.css */
+/* Estilo da imagem de fundo */
 .bg-image {
-  background-image: url('/public/img/image 1.png'); /* Substitua pelo caminho da sua imagem */
+  background-image: url("/public/img/Prancheta 1.png"); /* Substitua pelo caminho da sua imagem */
   background-size: cover; /* Garante que a imagem cubra toda a seção */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   width: 100%; /* Largura total */
   height: 100vh; /* Altura total da viewport */
+  position: relative; /* Para posicionamento absoluto do texto */
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: flex-start; /* Alinha horizontalmente à esquerda */
+}
+
+/* Estilo do texto */
+.text-overlay {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left; /* Alinha o texto à esquerda */
+  padding: 20px;
+  max-width: 50%; /* Ajusta a largura do texto */
+
+  /* Adiciona uma sombra para destacar o texto */
+  border-radius: 10px; /* Arredonda os cantos do contêiner de texto */
+  position: absolute;
+  left: 10%; /* Distância da borda esquerda */
+  /* Ajusta a posição vertical */
+}
+
+/* Responsividade para dispositivos menores */
+@media screen and (max-width: 992px) {
+  .bg-image {
+    justify-content: center; /* Centraliza o texto em telas menores */
+  }
+
+  .text-overlay {
+    max-width: 80%; /* Ajusta a largura do texto em telas menores */
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); /* Centraliza o texto horizontalmente */
+    padding: 15px;
+  }
 }
 
 .bg-image2 {
-  background-image: url('/public/img/Sorvete derretido.png'); /* Substitua pelo caminho da sua imagem */
+  background-image: url("/public/img/Sorvete derretido.png"); /* Substitua pelo caminho da sua imagem */
   background-size: cover; /* Garante que a imagem cubra toda a seção */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   width: 50%; /* Largura total */
   height: 30vh; /* Altura total da viewport */
 }
-
-
 
 .section-padding {
   padding: 0; /* Remove o padding da seção */
@@ -87,12 +117,10 @@ body {
     text-align: center;
   }
 
-
   .about-text {
     padding-top: 50px;
-  
+  }
 }
-
 
 /*produtos*/
 .product-img {
@@ -103,7 +131,7 @@ body {
   margin-bottom: 30px;
 }
 
-/*footer*/ 
+/*footer*/
 .footer {
   padding: 15px;
   font-size: 12px;
@@ -115,8 +143,6 @@ body {
   padding: 3px;
 }
 
-
-
 /*Contact*/
 contact {
   background-color: #fc638e;
@@ -125,9 +151,6 @@ contact {
 .small-text {
   font-size: 10px;
 }
-
-
-
 
 #socials {
   text-decoration: none;
@@ -139,7 +162,6 @@ contact {
   color: #000;
 }
 
-
 #copy {
   text-decoration: none;
   color: #fff;
@@ -149,4 +171,3 @@ contact {
   text-decoration: none;
   color: #000;
 }
-
